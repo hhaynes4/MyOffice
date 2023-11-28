@@ -1,0 +1,28 @@
+$blue-light: rgb(116, 160, 232);
+$blue-mid: rgb(33, 96, 198);
+$blue-dark: rgb(14, 54, 119);
+$gold: gold;
+$highlight-gray: rgba(143, 166, 200, 0.5);
+
+* {
+  font-family: 'georgia', sans-serif;
+}
+
+.individual {
+  height: auto;
+  padding: 10px;
+  border: 2px solid $blue-light;
+  border-radius: 10px;
+  margin: 5px;
+}
+p, h3 {
+  margin: 0px; 
+}
+
+p {
+  text-align: left;
+}
+
+.individual:hover {
+  border: 3px solid $blue-mid;
+}
