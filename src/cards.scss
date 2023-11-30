@@ -1,3 +1,5 @@
+$blue-superlight: rgba(203, 219, 246, 0.345);
+$blue-morelight: rgba(203, 219, 246, 0.744);
 $blue-light: rgb(116, 160, 232);
 $blue-mid: rgb(33, 96, 198);
 $blue-dark: rgb(14, 54, 119);
@@ -11,9 +13,12 @@ $highlight-gray: rgba(143, 166, 200, 0.5);
 .individual {
   height: auto;
   padding: 10px;
-  border: 2px solid $blue-light;
+  border: 2px solid $blue-morelight;
   border-radius: 10px;
   margin: 5px;
+  width: 200px;
+  background-color: $blue-superlight;
+
 }
 p, h3 {
   margin: 0px; 
@@ -24,5 +29,6 @@ p {
 }
 
 .individual:hover {
-  border: 3px solid $blue-mid;
+  border: 3px solid $blue-light;
+  background-color: $blue-morelight;
 }

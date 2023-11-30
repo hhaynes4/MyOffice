@@ -32,9 +32,11 @@ export default function App() {
   console.log('char arr', charactersArr)
 
   return (
-    <div id="container">
-      <h2> Welcome to your Office</h2>
-        {charactersArr}
+    <div id="title">
+      <h1> Welcome to your Office</h1>
+      <div id="container">
+      {charactersArr}
+      </div>
     </div>
   );
 }

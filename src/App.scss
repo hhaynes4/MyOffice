@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice');
+
 #root {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+
+#title {
+  font-family: 'Bungee Spice';
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 5px;
 }
